@@ -1,0 +1,1 @@
+print(f"{'You win' if input('Welcome to the Treasure Island. Left or right?').lower() == 'left' and input('Swim or wait?').lower() == 'wait' and input('Which door?').lower() == 'yellow' else 'Gameover'}")
