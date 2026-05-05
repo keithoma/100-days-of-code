@@ -1,0 +1,1 @@
+Task was to recreate https://appbrewery.github.io/python-day2-demo/. Tried to make it compact.
