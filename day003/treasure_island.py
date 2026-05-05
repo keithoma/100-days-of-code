@@ -1,1 +1,1 @@
-print(f"{'You win' if input('Welcome to the Treasure Island. Left or right?').lower() == 'left' and input('Swim or wait?').lower() == 'wait' and input('Which door?').lower() == 'yellow' else 'Gameover'}")
+print("You win!" if (L := lambda msg, choices: [c := input(msg).lower(), c in choices] and (c if c in choices else L(msg, choices)))( "Welcome to the Treasure Island.\nLeft or right? ", ["left", "right"]) == "left" and L("Swim or wait? ", ["swim", "wait"]) == "wait" and L("Which door? (Red/Blue/Yellow) ", ["red", "blue", "yellow"]) == "yellow" else "Game Over")
