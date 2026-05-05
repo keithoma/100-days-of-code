@@ -1,17 +1,1 @@
-print("")
-
-
-value_if_true1 if condition1 else value_if_true2 if condition2 else value_if_false
-
-lambda y, m: 
-
-print(
-    (
-        L := lambda y, m:
-            (u := input("stone / paper / scissors: ").lower()) and
-            (m := ("stone", "paper", "scissors")[id(object) % 3]) and
-            (
-                print()
-
-
-)
+(L := lambda: (u := input("rock/paper/scissors: ").lower()[0]) and (c := ("r", "p", "s")[id(object()) % 3]) and print(f"Computer chose {c}") or ((print("Draw! Retrying...") or L()) if u == c else print("You win!" if (u, c) in [("r", "s"), ("p", "r"), ("s", "p")] else "You lose!")))()
