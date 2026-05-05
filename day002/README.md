@@ -1,4 +1,5 @@
-Task was to recreate https://appbrewery.github.io/python-day2-demo/. Tried to make it compact.
+Task was to recreate https://appbrewery.github.io/python-day2-demo/. I tried to keep the code as 
+compact as possible.
 
 ```python
 print(
@@ -14,4 +15,4 @@ print(
 )
 ```
 
-Use `:.2f` in fstrings to round float into the nearest two decimal point.
+Use `:.2f` in f-strings to round a float to two decimal places.
